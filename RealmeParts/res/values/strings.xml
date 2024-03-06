@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_title">Realme Parts</string>
+    <string name="device_summary">Realme specific settings</string>
+    <string name="customize_title">Customize</string>
+    <string name="misc_title">Misc settings</string>
+    <string name="display_title">Display</string>
+    <string name="touch">Touchscreen</string>
+
+    <!-- srgb mode -->
+    <string name="srgb_mode_summary">sRGB mode for simpler colour display</string>
+    <string name="srgb_mode_title">sRGB mode</string>
+    <string name="tile_srgb_mode">sRGB</string>
+    <!-- otg mode -->
+    <string name="otg_mode_summary">Enable USB-OTG power supply for external headphones and flash drives</string>
+    <string name="otg_mode_title">Enable USB-OTG</string>
+    <string name="tile_otg_mode">Enable USB-OTG</string>
+    <!-- game mode -->
+    <string name="game_mode_summary">Boost Touch Sampling Rate</string>
+    <string name="game_mode_title">Game Mode</string>
+    <string name="tile_game_mode">Game Mode</string>
+
+    
+
+    <!-- Kcal -->
+    <string name="kcal_title">Display color control</string>
+    <string name="kcal_summary">Display color calibration using KCAL</string>
+    <string name="kcal_enabled_title">Enable KCAL</string>
+    <string name="kcal_enabled_summary">Turn on display calibration using KCAL</string>
+    <string name="kcal_red">Red</string>
+    <string name="kcal_green">Green</string>
+    <string name="kcal_blue">Blue</string>
+    <string name="kcal_saturation">Saturation</string>
+    <string name="kcal_contrast">Constrast</string>
+    <string name="menu_reset">Reset</string>
+    <string name="kcal_color_temp">Color temperature (K)</string>
+
+    <string name="kcal_greyscale_title">Greyscale</string>
+    <string name="kcal_greyscale_summary">Fully disable saturation</string>
+    <string name="presets_list_title">Load KCAL preset</string>
+    <string name="default_values">Default</string>
+    <string name="version_1">Version 1</string>
+    <string name="version_2">Version 2</string>
+    <string name="version_3">Version 3</string>
+    <string name="triluminous">Triluminous</string>
+    <string name="deep_black_and_white">Deep Black and White</string>
+    <string name="deep_natural">Deep Natural</string>
+    <string name="cool_amoled">Cool Amoled</string>
+    <string name="extreme_amoled">Extreme Amoled</string>
+    <string name="warm_amoled">Warm Amoled</string>
+    <string name="hybrid_mamba">Hybrid Mamba</string>
+    <string name="deep_amoled">Deep Amoled</string>
+    <string name="cold_amoled">Cold New Amoled</string>
+    <string name="clean_deep">Deep and Clean</string>
+    <string name="shamshung">Shamshung</string>
+    <string name="nature">Nature</string>
+    <string name="shamshung_cold">Cool Shamshung</string>
+    <string name="cold_as_ice">Extreme Cold</string>
+    <string name="deep_saturated">Deep and Saturated</string>
+    <string name="black_af">Deep Saturated Black</string>
+    <string name="kcal_hue">Hue</string>
+    <string name="kcal_value">Value</string>
+
+    <!-- Audio -->
+    <string name="audio_title">Audio</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="switch_bar_on">On</string>
+    <string name="switch_bar_off">Off</string>
+
+    <string name="audio_gain_settings">Audio Amplification</string>
+    <string name="gain_summary">Improve audio devices gain</string>
+
+    <!-- Audio amplification -->
+    <string name="headphone_gain">Headphone gain</string>
+    <string name="microphone_gain">Microphone gain</string>
+
+    <!-- Clear speaker -->
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
+    <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.\n\nWARNING: Ensure that any headphones are unplugged.</string>
+    
+    <!-- Vibration -->
+    <string name="vibration_title">Vibration</string>
+    <string name="vibration_summary">Customize vibration strenght</string>
+    <string name="vibration_strength_system_title">System vibration</string>
+    <string name="vibration_strength_notification_title">Notification vibration</string>
+    <string name="vibration_strength_call_title">Call vibration</string>
+</resources>
