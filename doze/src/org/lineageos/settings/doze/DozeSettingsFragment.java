@@ -40,7 +40,7 @@ import androidx.preference.SwitchPreference;
 import org.lineageos.settings.R;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
-         CompoundButton.OnCheckedChangeListener {
+         OnMainSwitchChangeListener {
 
     private MainSwitchPreference mSwitchBar;
 
