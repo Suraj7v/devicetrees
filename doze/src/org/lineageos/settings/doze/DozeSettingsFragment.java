@@ -40,7 +40,7 @@ import androidx.preference.SwitchPreference;
 import org.lineageos.settings.R;
 
 public class DozeSettingsFragment extends PreferenceFragment implements OnPreferenceChangeListener,
-         OnMainSwitchChangeListener {
+         CompoundButton.OnCheckedChangeListener {
 
     private MainSwitchPreference mSwitchBar;
 
@@ -66,7 +66,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         boolean dozeEnabled = DozeUtils.isDozeEnabled(getActivity());
 
         mSwitchBar = (MainSwitchPreference) findPreference(DozeUtils.DOZE_ENABLE);
-        mSwitchBar.addOnSwitchChangeListener(this);
+        mSwitchBar.addOnCheckedChangeListener(this);
         mSwitchBar.setChecked(dozeEnabled);
 
         mAlwaysOnDisplayPreference = (SwitchPreference) findPreference(DozeUtils.ALWAYS_ON_DISPLAY);
@@ -119,7 +119,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
     }
 
     @Override
-    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         DozeUtils.enableDoze(getActivity(), isChecked);
         DozeUtils.checkDozeService(getActivity());
 
