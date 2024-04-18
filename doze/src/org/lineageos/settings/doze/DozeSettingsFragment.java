@@ -66,7 +66,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
         boolean dozeEnabled = DozeUtils.isDozeEnabled(getActivity());
 
         mSwitchBar = (MainSwitchPreference) findPreference(DozeUtils.DOZE_ENABLE);
-        mSwitchBar.addOnCheckedChangeListener(this);
+        mSwitchBar.addOnSwitchChangeListener(this);
         mSwitchBar.setChecked(dozeEnabled);
 
         mAlwaysOnDisplayPreference = (SwitchPreference) findPreference(DozeUtils.ALWAYS_ON_DISPLAY);
